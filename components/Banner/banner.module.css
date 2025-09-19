@@ -78,7 +78,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 650px) {
   .container {
     width: 90%;
     max-width: 650px;
@@ -98,8 +98,9 @@
 
   .btn {
     width: 90%;
+
     height: 50px;
-    margin: 15px 10;
+    margin: 15px 5%;
     font-size: 16px;
   }
 }
