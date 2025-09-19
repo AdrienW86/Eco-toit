@@ -24,7 +24,7 @@ export default function Equipment() {
                     height={20}
                     sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                <p className={styles.txt}> Nettoyage écologique de toiture et façades </p>
+                <p className={styles.txt}> Nettoyage de toiture et façades </p>
             </div>
             <div className={styles.box}>
                 <Image
