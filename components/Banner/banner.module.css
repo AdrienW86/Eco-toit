@@ -8,7 +8,7 @@
 .carouselInner {
   position: relative;
   width: 100%;
-    aspect-ratio: 1 / 1; 
+  aspect-ratio: 1 / 1; 
 }
 
 .container {
@@ -83,22 +83,24 @@
     width: 90%;
     max-width: 650px;
     padding: 0 10px;
-}
+    left: 5%;
+    height: 60vh;
+    top: 10vh;
+  }
 
-.h1 {
-  font-size: 1.5rem
-}
+  .h1 {
+    font-size: 1.5rem
+  }
 
-.subtitle {
-  font-size: 1.2rem;
-}
+  .subtitle {
+    font-size: 1.2rem;
+  }
 
-.btn {
-  
-  width: 80%;
-  max-width: 450px;
-  height: 50px;
-  margin: 15px 10;
-  font-size: 16px;
-}
+  .btn {
+    width: 80%;
+    max-width: 450px;
+    height: 50px;
+    margin: 15px 10;
+    font-size: 16px;
+  }
 }
