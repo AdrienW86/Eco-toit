@@ -1,0 +1,46 @@
+/* simpleBanner.module.css */
+.banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bannerVideo {
+  aspect-ratio: 1 / 1; /* carré */
+  /* aspect-ratio: 2 / 3;  */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.btnContainer {
+    position: absolute;
+    color: red;
+    z-index: 2;
+    width: 100%;
+    bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.btn {
+    padding: 8px;
+    border-radius: 16px;
+    border: 1px solid #b88917;
+    background-color: rgba(255, 255, 255, 0.829);
+    color: #b88917;
+    width: 150px;
+    font-size: 16px;
+   
+    font-weight: medium;
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+   transition: 0.4s ease-in-out;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 1;  
+    background-color: white;
+}

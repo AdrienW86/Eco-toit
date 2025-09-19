@@ -1,0 +1,48 @@
+.footer {
+    z-index: 5;
+    height: 250px;
+    width: 100%;
+    color: white;
+    background-color: var(--blue);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Lobster', sans-serif;
+}
+
+.txt {
+    margin-top: 10px;
+    font-weight: lighter;
+    font-family: 'Lobster', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.link {
+    width: 100%;
+    font-family: 'Lobster', sans-serif;
+    display: flex;
+    margin: 20px 0 10px 0;
+    justify-content: center;
+}
+
+.codev {
+    margin-left: 4px;
+    color: black;
+    font-style: italic;
+}
+
+.codev:hover {
+    text-decoration: underline;
+}

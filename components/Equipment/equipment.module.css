@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .box {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: flex-start;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px; 
+  }
+  
+  .txt {
+    margin-left: 10px; 
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+  }
+  

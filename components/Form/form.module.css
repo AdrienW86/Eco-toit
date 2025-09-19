@@ -1,0 +1,94 @@
+.form {
+    z-index: 5;
+    text-align: center;
+    padding-bottom: 60px;
+    max-width: 350px;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: 1px solid #b88917;  
+    background-color: rgb(255, 255, 255);
+}
+
+.h3 {
+    padding: 18px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #b88917;  
+    font-family: 'Lobster', sans-serif;
+}
+
+.formContent {
+    padding: 22px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input, .textarea {
+    border-radius: 22px;
+    height: 50px;
+    color: black;
+    background-color: #ffffff;
+    border: 1px solid #b88917;
+    width: 90%;
+    margin: 0 auto 15px auto;
+    padding-left: 20px;
+}
+
+.input::placeholder, .textarea::placeholder {
+    font-family: 'Lobster', sans-serif;
+}
+
+.textarea {
+    padding-top: 20px;
+    height: 200px;
+}
+
+.error {
+    font-size: 0.6em;
+    color: red;
+    position: relative;
+    bottom: 6px;
+    padding-left: 30px;
+}
+
+.submit {
+    height: 50px;
+    width: 220px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    background-color: #b88917;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 70px;
+    font-size: 1.2em;
+    font-family: 'Lobster', sans-serif;
+    transition: .4s ease-in-out;
+    
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #967017;
+}
+
+.confirm {
+    padding: 30px 16px 
+}
+
+.pConfirm {
+    text-align: center;
+    color: white;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    line-height: 2.2;
+    background: #b88917;
+    border: 2px solid white;
+    font-family: 'Lobster', sans-serif;
+}

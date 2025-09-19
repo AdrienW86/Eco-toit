@@ -1,0 +1,129 @@
+
+
+.box {
+    z-index: 2;
+    background-color: #b88917;
+}
+
+.span {
+    position: relative;
+    bottom: 10px;
+    text-decoration: underline;
+    font-size: 1em;
+    color: #b88917;  
+}
+
+.h2 {
+    z-index: 2;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    font-weight: lighter;
+    color: white; 
+}
+
+.localisation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+  }
+
+.article, .intro {
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lobster', sans-serif;
+    font-weight: lighter;
+    font-size: 18px; 
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+   
+}
+
+.article {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('/image4.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    width: 100%; 
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+
+
+.li {
+    display: flex;
+    margin: 80px 0;
+    position: relative;
+}
+
+.picture {
+    width: 50%;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid #b88917;
+}
+
+.p {
+    width: 50%;
+    height: auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ctaButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b88917;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .ctaButton:hover {
+    background-color: #9a7113;
+  }
+
+  /* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+    .picture {
+        width: 50%;
+        height: 300px;
+        border-radius: 20px;
+        border: 1px solid #b88917;
+    }
+    .p {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 1121px) {
+    .picture {
+        width: 50%;
+        height: 400px;
+        border-radius: 20px;
+        border: 1px solid #b88917;
+    }
+    .p {
+        font-size: 2em;
+    }
+}
