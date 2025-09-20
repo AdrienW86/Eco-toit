@@ -39,8 +39,9 @@
 
 .codev {
     margin-left: 4px;
-    color: black;
+    color: var(--green);
     font-style: italic;
+    font-weight: bold;
 }
 
 .codev:hover {
