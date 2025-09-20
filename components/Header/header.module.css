@@ -109,7 +109,7 @@
 .li {
     color: var(--blue);
     display: flex;
-    height: 8vh;
+    height: 6vh;
     flex-direction: column;
     justify-content: center;
     border-bottom: 1px solid #000000;
