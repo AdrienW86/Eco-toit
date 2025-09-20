@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -30,8 +31,8 @@ export default function Header() {
           className={styles.logo}
           src="/logo.png"
           alt="logo de l'entreprise"
-          width={200}
-          height={200}
+          width={150}
+          height={150}
           sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
         />
       </Link>   
@@ -58,9 +59,26 @@ export default function Header() {
         </div>
         {isMenuOpen && 
       <section className={styles.menu}>
+        <Link href="/">
+        <Image
+         
+          className={styles.logo2}
+          src="/logo.png"
+          alt="logo de l'entreprise"
+          width={200}
+          height={200}
+          sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        />
+      </Link>   
         <ul className={styles.ul}>
           <li> <Link className={styles.li} href="/" onClick={handleMenuToggle}> Accueil </Link></li>
           <li> <Link className={styles.li} href="/pictures" onClick={handleMenuToggle}> Photos </Link></li>
+          <li> <Link className={styles.li} href="/couverture" onClick={handleMenuToggle}> Travaux de couverture </Link></li>
+          <li> <Link className={styles.li} href="/façades" onClick={handleMenuToggle}> Rénovation de façades </Link></li>
+          <li> <Link className={styles.li} href="/zinguerie" onClick={handleMenuToggle}> Zinguerie </Link></li>
+          <li> <Link className={styles.li} href="/maçonnerie" onClick={handleMenuToggle}> Petite maçonnerie </Link></li>
+          <li> <Link className={styles.li} href="/peinture" onClick={handleMenuToggle}> Peinture de toiture isolante </Link></li>
+          <li> <Link className={styles.li} href="/nettoyage" onClick={handleMenuToggle}> Nettoyage de toiture et façades </Link></li>
           <li> <Link className={styles.li} href="/contact" onClick={handleMenuToggle}> Contact </Link></li>
         </ul>
       </section>}

@@ -2,7 +2,6 @@
     z-index: 5;
     height: 150px;
     width: 100%;
-    color: #b88917;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,41 +85,47 @@
     
 .open:hover .line, .close:hover .line {
     cursor: pointer;
-    background-color: #b88917;;
+    background-color: var(--green);
 }
 
 .menu {
-    position: absolute;
+    position: fixed;
     z-index: 20;
-    top: 15vh;
-    height: 150px;
+    top: 0px;
+    height: 100vh;
     width: 100%;
     list-style: none;
     background-color: #ffffff;
     border-bottom: 1px solid #000000;
 }
 
+.logo2 {
+  height: 28vh;
+  width: 28vh
+}
+
 .ul {
+    height: calc(100vh - 200px);
     list-style: none;
 }
 
 .li {
-    color: rgb(0, 0, 0);
+    color: var(--blue);
     padding-left: 20px;
     display: flex;
+    height: 8vh;
     flex-direction: column;
     justify-content: center;
     border-top: 1px solid #000000;
     font-family: 'Lobster', sans-serif;
     font-weight: lighter;
     font-size: 20px;
-    height: 50px;
     list-style: none;
     transition: .4s ease-in-out
 }
 
 .li:hover {
-    color: #b88917;
+    color: var(--green);
     cursor: pointer;
 }
 
