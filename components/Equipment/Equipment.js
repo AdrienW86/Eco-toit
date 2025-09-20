@@ -31,7 +31,7 @@ const data = [
   },
   {
     title: "Petite maçonnerie",
-     src: "/facade.jpg",
+    src: "/facade.jpg",
     alt: "Illustration lingettes microfibres"
   }
 ]

@@ -1,8 +1,10 @@
 import Image from "next/image"
+import { motion } from 'framer-motion'
 import styles from './card.module.css'
 
 
 export default function Card(props) {
+  
   return (
     <div className={styles.card}>
       <h3 className={styles.txt}>{props.title}</h3>
