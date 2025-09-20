@@ -1,6 +1,6 @@
 .header {
     z-index: 5;
-    height: 200px;
+    height: 150px;
     width: 100%;
     color: #b88917;
     display: flex;
@@ -15,7 +15,7 @@
 .h1_container {
     position: absolute;
     background-color: var(--green);
-    top : 180px;
+    top : 150px;
     height: 5vh;
     width: 100%;
     display: flex;
