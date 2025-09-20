@@ -90,18 +90,14 @@
 
 .menu {
     position: fixed;
+    top: 150px;
     z-index: 20;
-    top: 0px;
-    height: 100vh;
+    height: calc(100vh - 150px);
     width: 100%;
     list-style: none;
+    max-width: 800px;
     background-color: #ffffff;
-    border-bottom: 1px solid #000000;
-}
-
-.logo2 {
-  height: 28vh;
-  width: 28vh
+    border-top: 1px solid #000000;
 }
 
 .ul {
@@ -116,7 +112,7 @@
     height: 8vh;
     flex-direction: column;
     justify-content: center;
-    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
     font-family: 'Lobster', sans-serif;
     font-weight: lighter;
     font-size: 20px;
