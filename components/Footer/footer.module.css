@@ -3,6 +3,7 @@
     height: 250px;
     width: 100%;
     color: white;
+    font-weight: bold;
     background-color: var(--blue);
 }
 
@@ -23,7 +24,6 @@
 
 .txt {
     margin-top: 10px;
-    font-weight: lighter;
     font-family: 'Lobster', sans-serif;
     width: 100%;
     text-align: center;
