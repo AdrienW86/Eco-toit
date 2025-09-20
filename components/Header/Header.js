@@ -11,11 +11,9 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 
-  const handleMenuToggle = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  const handleMenuToggle = () => setIsMenuOpen(!isMenuOpen);
 
-  // 🔒 Bloquer le scroll avec position: fixed
+  // Bloquer le scroll avec position: fixed
   useEffect(() => {
     if (isMenuOpen) {
       const currentScroll = window.scrollY;
@@ -45,20 +43,21 @@ export default function Header() {
   const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: false, threshold: 0.0 });
   const { ref: ref2, inView: inView2 } = useInView({ triggerOnce: false, threshold: 0.0 });
 
-  // Variantes Framer Motion pour le menu et les li
   const menuVariants = {
     hidden: { opacity: 0, y: "-100%" },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { when: "beforeChildren", staggerChildren: 0.1 }
-    },
-    exit: { opacity: 0, y: "-100%" }
+    visible: { opacity: 1, y: 0, transition: { when: "beforeChildren", staggerChildren: 0.1 } },
+    exit: { opacity: 0, y: "100%" }
   };
 
   const liVariants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0, transition: { duration: 0.3 } }
+  };
+
+  const overlayVariants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 0.5 },
+    exit: { opacity: 0 }
   };
 
   const menuItems = [
@@ -79,10 +78,7 @@ export default function Header() {
         <motion.img
           ref={ref1}
           initial={{ opacity: 0, x: -100 }}
-          animate={{
-            opacity: inView1 ? 1 : 0,
-            x: inView1 ? 0 : -100,
-          }}
+          animate={{ opacity: inView1 ? 1 : 0, x: inView1 ? 0 : -100 }}
           exit={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
           className={styles.logo}
@@ -90,28 +86,26 @@ export default function Header() {
           alt="logo de l'entreprise"
           width={150}
           height={150}
-          sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
         />
-      </Link>   
+      </Link>
+
       <div className={styles.h1_container}>
-        <motion.h1 
+        <motion.h1
           className={styles.h1}
-          ref={ref2}  
-          initial={{ opacity: 0, x: 100 }} 
-          animate={{
-            opacity: inView2 ? 1 : 0,
-            x: inView2 ? 0 : 100,
-          }}
+          ref={ref2}
+          initial={{ opacity: 0, x: 100 }}
+          animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 0 : 100 }}
           exit={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.5 }}
         >
           Entreprise certifiée RGE
         </motion.h1>
       </div>
-      <div className={styles.buttonBox}> 
-        <button 
-          className={`${styles.hamburger} ${isMenuOpen ? styles.open : styles.close}`} 
-          onClick={handleMenuToggle} 
+
+      <div className={styles.buttonBox}>
+        <button
+          className={`${styles.hamburger} ${isMenuOpen ? styles.open : styles.close}`}
+          onClick={handleMenuToggle}
           aria-label="hamburger button"
         >
           <span className={styles.line}></span>
@@ -122,24 +116,37 @@ export default function Header() {
 
       <AnimatePresence>
         {isMenuOpen && (
-          <motion.section
-            className={styles.menu}
-            initial="hidden"
-            animate="visible"
-            exit="exit"
-            variants={menuVariants}
-          >
-          
-            <ul className={styles.ul}>
-              {menuItems.map((item, index) => (
-                <motion.li key={index} variants={liVariants}>
-                  <Link className={styles.li} href={item.href} onClick={handleMenuToggle}>
-                    {item.label}
-                  </Link>
-                </motion.li>
-              ))}
-            </ul>
-          </motion.section>
+          <>
+            {/* Overlay semi-transparent */}
+            <motion.div
+              className={styles.overlay}
+              initial="hidden"
+              animate="visible"
+              exit="exit"
+              variants={overlayVariants}
+              onClick={handleMenuToggle}
+            />
+
+            {/* Menu */}
+            <motion.section
+              className={styles.menu}
+              initial="hidden"
+              animate="visible"
+              exit="exit"
+              variants={menuVariants}
+            >
+
+              <ul className={styles.ul}>
+                {menuItems.map((item, index) => (
+                  <motion.li key={index} variants={liVariants}>
+                    <Link className={styles.li} href={item.href} onClick={handleMenuToggle}>
+                      {item.label}
+                    </Link>
+                  </motion.li>
+                ))}
+              </ul>
+            </motion.section>
+          </>
         )}
       </AnimatePresence>
     </header>
