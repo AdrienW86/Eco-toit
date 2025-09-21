@@ -6,32 +6,37 @@ const data = [
   {
     title: "Travaux de couverture",
     src: "/couverture.jpg",
+    url: "/couverture",
     alt: "Illustration couverture de toit"
   },
   {
     title: "Nettoyage écologique de toiture et façades",
-     src: "/facade.jpg",
+    src: "/facade.jpg",
+    url: "/nettoyage",
     alt: "Illustration balai vapeur"
   },
   {
     title: "Peinture de toiture isolante",
     src: "/facade.jpg",
+    url: "/peinture",
     alt: "Illustration lingettes microfibres",
-    link: "/peinture-isolante"
   },
    {
     title: "Rénovation de façades",
     src: "/facade.jpg",
+    url: "/facades",
     alt: "Illustration rénovation de façade"
   },
   {
     title: "Travaux de zinguerie",
     src: "/zinguerie.jpg",
+    url: "/zinguerie",
     alt: "Illustration balai vapeur"
   },
   {
     title: "Petite maçonnerie",
     src: "/facade.jpg",
+    url: "/maconnerie",
     alt: "Illustration lingettes microfibres"
   }
 ]
@@ -43,6 +48,7 @@ export default function Equipment() {
         <Card 
           key={index}
           title={item.title}
+          url={item.url}
           description={item.description}
           src={item.src}
           alt={item.alt}

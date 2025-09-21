@@ -4,6 +4,5 @@
   justify-content: center;
   gap: 20px;
   padding: 20px 0;
- 
   background: radial-gradient(circle, var(--blue), #000000);
 }

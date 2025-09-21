@@ -10,7 +10,7 @@ export default function Intro() {
           et professionnalisme. Que ce soit pour la pose, la rénovation ou l’entretien
           de votre toiture, nous mettons notre expertise à votre service pour garantir 
           durabilité et sécurité.
-          Nous proposons une gamme complète de services :
+          Nous proposons une gamme complète de services
     </p>
     </section>
   )

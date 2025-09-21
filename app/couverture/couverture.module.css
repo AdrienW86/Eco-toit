@@ -1,0 +1,13 @@
+.section {
+  
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: white;
+  padding: 8px;
+  background-color: var(--green);
+}
+
+

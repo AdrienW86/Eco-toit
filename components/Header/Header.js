@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -64,9 +63,9 @@ export default function Header() {
     { href: "/", label: "Accueil" },
     { href: "/pictures", label: "Photos" },
     { href: "/couverture", label: "Travaux de couverture" },
-    { href: "/façades", label: "Rénovation de façades" },
+    { href: "/facades", label: "Rénovation de façades" },
     { href: "/zinguerie", label: "Zinguerie" },
-    { href: "/maçonnerie", label: "Petite maçonnerie" },
+    { href: "/maconnerie", label: "Petite maçonnerie" },
     { href: "/peinture", label: "Peinture de toiture isolante" },
     { href: "/nettoyage", label: "Nettoyage de toiture et façades" },
     { href: "/contact", label: "Contact" },
@@ -88,8 +87,7 @@ export default function Header() {
           height={150}
         />
       </Link>
-
-      <div className={styles.h1_container}>
+      {/* <div className={styles.h1_container}>
         <motion.h1
           className={styles.h1}
           ref={ref2}
@@ -100,8 +98,7 @@ export default function Header() {
         >
           Entreprise certifiée RGE
         </motion.h1>
-      </div>
-
+      </div> */}
       <div className={styles.buttonBox}>
         <button
           className={`${styles.hamburger} ${isMenuOpen ? styles.open : styles.close}`}
@@ -113,11 +110,9 @@ export default function Header() {
           <span className={styles.line}></span>
         </button>
       </div>
-
       <AnimatePresence>
         {isMenuOpen && (
           <>
-            {/* Overlay semi-transparent */}
             <motion.div
               className={styles.overlay}
               initial="hidden"
@@ -126,8 +121,6 @@ export default function Header() {
               variants={overlayVariants}
               onClick={handleMenuToggle}
             />
-
-            {/* Menu */}
             <motion.section
               className={styles.menu}
               initial="hidden"
@@ -135,7 +128,6 @@ export default function Header() {
               exit="exit"
               variants={menuVariants}
             >
-
               <ul className={styles.ul}>
                 {menuItems.map((item, index) => (
                   <motion.li key={index} variants={liVariants}>
