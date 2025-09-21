@@ -1,0 +1,46 @@
+.container {
+    background-color: white;
+}
+
+.h2 {
+    padding: 8px;
+    color: white;
+    background-color: var(--green);
+}
+
+.h3 {
+    padding: 8px;
+    color: white;
+    background-color: var(--blue);
+}
+
+.p {
+    padding: 12px 8px;
+    line-height: 1.4rem;
+}
+
+.p2 {
+    color: var(--green);
+    font-weight: bold;
+    padding: 12px 8px;
+    line-height: 1.4rem;
+    border-top : 1px solid black;
+}
+
+.background {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('/zinguerie.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.ul {
+    padding: 8px;
+    list-style: disc;
+}
+
+.li {
+    list-style: circle;
+    margin: 20px 0
+}
