@@ -52,10 +52,14 @@ export default function Menu() {
                 </li>
             </ul>
         </section>
-            <p className={styles.p}>
+            <p className={styles.p3}>
                 Avec Eco Toit, vous bénéficiez d’un savoir-faire reconnu et d’une zinguerie 
                 parfaitement intégrée à votre toiture
             </p>
+                <div className={styles.boxBtn}>
+                    <button className={styles.btn2}> Nous appeler </button>
+                    <button className={styles.btn}> Devis gratuit </button>
+                </div>
             <p className={styles.p2}>
                 Contactez-nous dès aujourd’hui pour un devis gratuit et découvrez nos offres de zinguerie 
                 adaptées à vos besoins et à votre budget.
