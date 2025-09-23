@@ -30,7 +30,8 @@
 
 .h1 {
   font-style: italic;
-  z-index: 2
+  z-index: 2;
+  text-align: left;
 }
 
 .box {
@@ -90,7 +91,7 @@
 }
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 580px) {
   .container {
     width: 90%;
     max-width: 650px;
@@ -101,8 +102,12 @@
   }
 
   .h1 {
-    font-size: 1.5rem
-  }
+    font-size: 1.5rem;
+    font-style: italic;
+    z-index: 2;
+    text-align: left;
+    padding-left: 40px;
+}
 
   .subtitle {
     font-size: 1.2rem;
@@ -113,5 +118,9 @@
     height: 50px;
     margin: 15px 10%;
     font-size: 16px;
+  }
+
+  .box {
+    display: block
   }
 }
