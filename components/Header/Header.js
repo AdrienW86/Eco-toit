@@ -74,16 +74,27 @@ export default function Header() {
   return (
     <header className={styles.header}>
        <motion.a
-          className={styles.call}
-          href="tel:0651368373"
-          ref={ref2}
-          initial={{ opacity: 0, y: -100 }}     // départ en haut
-          animate={{ opacity: inView2 ? 1 : 0, y: inView2 ? 0 : -50 }} // arrive à sa position
-          exit={{ opacity: 0, y: -50 }}
-          transition={{ duration: 0.3 }}
-          >
-            06.51.36.83.73
-          </motion.a>
+  className={styles.call}
+  href="tel:0651368373"
+  ref={ref2}
+  initial={{ opacity: 0, x: -300 }}     // départ à gauche
+  animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 0 : -100 }}
+  exit={{ opacity: 0, x: -300 }}
+  transition={{ duration: 0.3 }}
+>
+  06.51.36.83.73
+</motion.a>
+
+<motion.div
+  className={styles.rge}
+  ref={ref2}
+  initial={{ opacity: 0, x: 300 }}      // départ à droite
+  animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 0 : 100 }}
+  exit={{ opacity: 0, x: 300 }}
+  transition={{ duration: 0.3 }}
+>
+  Certifié RGE
+</motion.div>
       <Link href="/">
         <motion.img
           ref={ref1}

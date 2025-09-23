@@ -50,13 +50,27 @@
     padding: 8px;
     font-weight: bold;
     border-radius: 20px;
+    width: 150px;
     transition: .4s ease-in-out;
     background-color: var(--blue);
 }
 
-.call:hover {
+.call:hover, .rge:hover {
     cursor: pointer;
     background-color: red;
+}
+
+.rge {
+    position: absolute;
+    color: white;
+    right: 20px;
+    bottom: -20px;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 150px;
+    transition: .4s ease-in-out;
+    background-color: var(--green);
 }
 
 .hamburger {
