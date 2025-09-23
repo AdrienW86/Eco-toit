@@ -57,15 +57,16 @@ export default function VideoCarousel({ fadeDuration = 1.5, clipDuration = 7 }) 
             </motion.a>
             <motion.a
               className={styles.btn}
-              href="/pictures"
+              href="tel:0651368373"
               ref={ref2}
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 0 : 50 }}
               exit={{ opacity: 0, x: 50 }}
               transition={{ duration: 0.3 }}
             >
-              Dépannage urgence
+              Appeler maintenant
             </motion.a>
+
           </div>
       </div>
 

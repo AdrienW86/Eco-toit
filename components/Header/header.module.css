@@ -34,6 +34,22 @@
     width: 30%;
 }
 
+.call {
+    position: absolute;
+    color: white;
+    left: 20px;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: .4s ease-in-out;
+    background-color: var(--green);
+}
+
+.call:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
 .hamburger {
     position: absolute;
     top: 6vh;

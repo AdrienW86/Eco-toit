@@ -1,8 +1,7 @@
-import Image from "next/image";
 import Banner from '@/components/Banner/Banner'
 import Intro from "@/components/Intro/Intro";
 import Equipment from "@/components/Equipment/Equipment";
-import styles from './page.module.css'
+import Localisation from '@/components/Localisation/Localisation';
 
 export default function Home() {
   return ( 
@@ -10,6 +9,7 @@ export default function Home() {
       <Banner />
       <Intro />
       <Equipment />
+      <Localisation />
     </>                   
   );
 }
