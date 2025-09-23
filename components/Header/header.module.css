@@ -129,9 +129,9 @@
 
 .menu {
     position: fixed;
-    top: 150px;
+    top: 130px;
     z-index: 20;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 130px);
     width: 100%;
     list-style: none;
     max-width: 800px;
