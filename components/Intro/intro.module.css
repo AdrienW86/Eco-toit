@@ -10,10 +10,8 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  font-family: 'Lobster', sans-serif;
   padding: 16px;
   height: 70px;
-  font-weight: lighter;
   font-size: 24px;
   color: white;
   background-color: var(--green);

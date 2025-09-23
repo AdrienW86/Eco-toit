@@ -75,12 +75,12 @@ export default function Header() {
     <header className={styles.header}>
        <motion.a
           className={styles.call}
-  href="tel:0651368373"
-  ref={ref2}
-  initial={{ opacity: 0, y: -100 }}     // départ en haut
-  animate={{ opacity: inView2 ? 1 : 0, y: inView2 ? 0 : -50 }} // arrive à sa position
-  exit={{ opacity: 0, y: -50 }}
-  transition={{ duration: 0.3 }}
+          href="tel:0651368373"
+          ref={ref2}
+          initial={{ opacity: 0, y: -100 }}     // départ en haut
+          animate={{ opacity: inView2 ? 1 : 0, y: inView2 ? 0 : -50 }} // arrive à sa position
+          exit={{ opacity: 0, y: -50 }}
+          transition={{ duration: 0.3 }}
           >
             06.51.36.83.73
           </motion.a>
@@ -98,7 +98,7 @@ export default function Header() {
           height={150}
         />
       </Link>
-      <div className={styles.h1_container}>
+      {/* <div className={styles.h1_container}>
         <motion.h1
           className={styles.h1}
           ref={ref2}
@@ -109,7 +109,7 @@ export default function Header() {
         >
           Entreprise certifiée RGE
         </motion.h1>
-      </div> 
+      </div>  */}
       <div className={styles.buttonBox}>
         <button
           className={`${styles.hamburger} ${isMenuOpen ? styles.open : styles.close}`}
