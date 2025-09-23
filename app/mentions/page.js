@@ -17,7 +17,7 @@ export default function MentionsLegales() {
       <p className={styles.p}>Adresse : 6 BIS RUE de bel air, 44330 Vallet, France</p>
       <p className={styles.p}>Date de début d’activité : 04/06/2025</p>
       <p className={styles.p}>Date d’immatriculation au RNE : 13/06/2025</p>
-      <p className={styles.p}>Email : <a href="mailto:ecotoit44330@gmail.com" className="text-blue-600 underline">ecotoit44330@gmail.com</a></p>
+      <p className={styles.p}>Email : <a href="mailto:ecotoit44330@gmail.com">ecotoit44330@gmail.com</a></p>
       <p className={styles.p}>Téléphone : 06 51 36 83 73</p>
 
       <h2 className={styles.h2}>Hébergement du site</h2>

@@ -11,7 +11,7 @@ export default function CGV() {
 
       <h2 className={styles.h2}>Article 2 – Prestations</h2>
        <p className={styles.p}>Éco Toit propose des services :</p>
-      <ul className="list-disc pl-6">
+      <ul>
         <li className={styles.li}> Pose et réparation de toitures</li>
         <li className={styles.li}> Peinture de toitures et façades</li>
         <li className={styles.li}> Nettoyage et démoussage de toitures</li>
