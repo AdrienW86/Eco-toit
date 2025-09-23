@@ -38,11 +38,12 @@
     position: absolute;
     color: white;
     left: 20px;
+    bottom: 20px;
     padding: 8px;
     font-weight: bold;
     border-radius: 20px;
     transition: .4s ease-in-out;
-    background-color: var(--green);
+    background-color: var(--blue);
 }
 
 .call:hover {
