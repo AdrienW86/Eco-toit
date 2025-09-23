@@ -28,6 +28,7 @@
   color: rgb(255, 255, 255);
   height: 330px;
   text-align: center;
+  font-weight: bold;
   line-height: 1.7rem;
   background-color: rgba(0, 0, 0, 0.562);
   font-family: 'Lobster', sans-serif;

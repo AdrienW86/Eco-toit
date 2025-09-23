@@ -11,13 +11,13 @@ const data = [
   },
   {
     title: "Nettoyage écologique de toiture et façades",
-    src: "/facade.jpg",
+    src: "/nettoyage2.png",
     url: "/nettoyage",
     alt: "Illustration balai vapeur"
   },
   {
     title: "Peinture de toiture isolante",
-    src: "/facade.jpg",
+    src: "/peinture.png",
     url: "/peinture",
     alt: "Illustration lingettes microfibres",
   },
@@ -35,7 +35,7 @@ const data = [
   },
   {
     title: "Petite maçonnerie",
-    src: "/facade.jpg",
+    src: "/maconnerie2.png",
     url: "/maconnerie",
     alt: "Illustration lingettes microfibres"
   }

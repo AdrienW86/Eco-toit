@@ -2,7 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
-  padding: 20px 0;
-  background: radial-gradient(circle, var(--blue), #000000);
+  gap: 80px;
+  padding: 70px 0 40px 0;
+ background: rgb(197, 227, 253);
+background: linear-gradient(to bottom, var(--green), var(--blue));
+
+
 }
