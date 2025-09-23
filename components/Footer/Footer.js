@@ -17,6 +17,15 @@ export default function Footer() {
             sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
           />
        </div>
+       <div className={styles.link_container}>
+        <a className={styles.link2} href="/mentions">
+        Mentions légales
+      </a>
+       <a className={styles.link2} href="/conditions">
+        CGV
+      </a>
+
+       </div>
      
       <a className={styles.link} href="https://code-v.fr" target="_blank" rel="noopener noreferrer">
         Réalisé par <span className={styles.codev}> Codev </span>

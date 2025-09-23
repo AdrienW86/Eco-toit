@@ -5,16 +5,24 @@
 .h2 {
     padding: 8px;
     color: white;
+    margin-bottom: 20px;
     background-color: var(--green);
 }
 
 .h3 {
     padding: 8px;
     color: white;
+    margin-top: 20px;
     background-color: var(--blue);
 }
 
-.p {
+.span {
+    font-style: italic;
+    color: var(--green)
+}
+
+.p, .p2 {
+    font-weight: bold;
     padding: 12px 8px;
     line-height: 1.4rem;
 }
@@ -22,21 +30,10 @@
 .p2 {
     color: white;
     background-color: var(--green);
-    font-weight: bold;
-    padding: 12px 8px;
-    line-height: 1.4rem;
     border-top : 1px solid black;
 }
 
-.p3 {
-    padding: 12px 8px;
-    line-height: 1.4rem;
-    font-weight: bold;
-}
-
-
-.background {
-   
+.background {  
     background-size: cover;
     background-position: center;
     color: white;
@@ -51,6 +48,13 @@
 .li {
     list-style: circle;
     margin: 20px 0
+}
+
+.contact {
+    margin: 20px 8px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color:rgba(38, 58, 128, 0.411);  
 }
 
 .boxBtn {

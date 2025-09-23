@@ -27,8 +27,9 @@ export default function Menu({ title, intro, title2, items, title3, whyUs, backg
         </ul>
       </section>
 
-      <p className={styles.p3}>
-        Avec Eco Toit, vous bénéficiez d’un savoir-faire reconnu et d’une zinguerie 
+      <section className={styles.contact}>
+        <p className={styles.p}>
+        Avec <strong className={styles.span}>Eco Toit</strong>, vous bénéficiez d’un savoir-faire reconnu et d’une zinguerie 
         parfaitement intégrée à votre toiture
       </p>
 
@@ -36,6 +37,7 @@ export default function Menu({ title, intro, title2, items, title3, whyUs, backg
         <Link href="tel:0651368373" className={styles.btn2}>Nous appeler</Link>
         <Link href="/contact" className={styles.btn}>Devis gratuit</Link>
       </div>
+      </section>
 
       <p className={styles.p2}>
         Contactez-nous dès aujourd’hui pour un devis gratuit et découvrez nos offres de zinguerie 

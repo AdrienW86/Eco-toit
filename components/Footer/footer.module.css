@@ -1,6 +1,6 @@
 .footer {
     z-index: 5;
-    height: 250px;
+    height: 300px;
     width: 100%;
     color: white;
     font-weight: bold;
@@ -27,6 +27,21 @@
     font-family: 'Lobster', sans-serif;
     width: 100%;
     text-align: center;
+}
+
+.link_container {
+    display: flex;
+    justify-content: center;
+}
+
+.link2 {
+    margin: 10px;
+    text-decoration: underline;
+    transition: .4s ease-in-out;
+}
+
+.link2:hover {
+    color: var(--green)
 }
 
 .link {

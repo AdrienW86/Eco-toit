@@ -1,0 +1,29 @@
+.container {
+    border-top: 1px solid black;
+    background-color: white;
+    padding: 12px;
+}
+
+.title {
+   margin: 40px; 
+   color: var(--blue);
+}
+
+.h2 {
+    margin: 20px 0;
+    color: var(--green);
+    text-decoration: underline;
+}
+
+.li {
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 1.4rem;
+    color: var(--blue)
+}
+
+.p {
+    padding: 12px;
+    font-weight: 600;
+    line-height: 1.4rem;
+}
