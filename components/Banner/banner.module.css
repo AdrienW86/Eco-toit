@@ -15,7 +15,7 @@
   position: absolute;
   top: 15vh;
   left: 10%;
-  height: 50vh;
+  min-height: 50vh;
   width: 80%;
   max-width: 650px;
   z-index: 2;
@@ -97,7 +97,6 @@
     max-width: 650px;
     padding: 0 10px;
     left: 5%;
-    height: 60vh;
     top: 10vh;
   }
 
