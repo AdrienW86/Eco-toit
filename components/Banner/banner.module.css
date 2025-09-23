@@ -30,6 +30,18 @@
 
 .h1 {
   font-style: italic;
+  z-index: 2
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.garantie {
+  position: absolute;
+  right: -20px;
+  top: -40px;
 }
 
 .subtitle {

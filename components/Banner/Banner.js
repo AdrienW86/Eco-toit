@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState, useRef } from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { useInView } from 'react-intersection-observer';
 import styles from './banner.module.css';
 
@@ -38,7 +39,15 @@ export default function VideoCarousel({ fadeDuration = 1.5, clipDuration = 7 }) 
   return (
     <div className={styles.carousel}>
       <div className={styles.container}>
-        <h1 className={styles.h1}> Couverture Eco Toit </h1>
+        <div className={styles.box}>
+          <h1 className={styles.h1}> Couverture Eco Toit </h1>
+          <Image 
+            className={styles.garantie}
+            src='/garantie.png'
+            height={120}
+            width={120}
+        />       
+        </div>
           <p className= {styles.subtitle}> Artisan couvreur professionnel </p>
           <p className={styles.p}> Artisan spécialisé dans la couverture, <br/>
             la rénovation de toiture et la zinguerie sur toute la Loire-Atlantique, la Vendée, 
