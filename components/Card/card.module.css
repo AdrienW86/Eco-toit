@@ -4,7 +4,7 @@
   aspect-ratio: 16/9; 
   border-radius: 10px;
   transition: transform 0.4s ease-in-out;
-  margin: 20px 0
+  margin: 20px 0 0 0
 }
 
 .h3 {
