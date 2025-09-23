@@ -6,26 +6,27 @@ export default function Page() {
   return (
     <section>
       <SecondBanner 
-        url="/image12.jpg"
-        txt="Confiez le nettoyage de votre toiture à des experts"
+        url="/nettoyage2.png"
+        txt="Redonnez vie à votre toiture"
       />
       <Menu 
-        title="Nettoyage de toiture"
-        intro="Chez Eco Toit, nous proposons des services professionnels de nettoyage de toiture à Vallet et dans tout le vignoble nantais. Nous éliminons mousses, lichens et débris pour prolonger la durée de vie de votre toit et préserver son étanchéité."
-        title2="Nos prestations de nettoyage comprennent :"
+        title="Nettoyage et démoussage de toiture"
+        intro="Chez Eco Toit, nous assurons le nettoyage et le démoussage de vos toitures à Vallet et dans tout le vignoble nantais. Nos interventions permettent de préserver l’étanchéité, la durabilité et l’esthétique de votre toiture tout en empêchant la prolifération des mousses et lichens."
+        title2="Nos services de nettoyage et démoussage comprennent :"
         items={[
-          "Nettoyage manuel ou à haute pression pour éliminer mousses, lichens et saletés.",
-          "Application de traitements hydrofuges pour protéger durablement votre toiture.",
-          "Contrôle et réparation des éléments endommagés après nettoyage.",
-          "Entretien régulier pour maintenir l’aspect et la performance de votre toit."
+          "Nettoyage complet de votre toiture pour éliminer mousses, lichens et salissures.",
+          "Application de traitements anti-mousse pour prévenir la réapparition.",
+          "Inspection de la toiture pour détecter et réparer les zones fragilisées.",
+          "Entretien régulier pour prolonger la durée de vie de votre couverture."
         ]}
         title3="Pourquoi choisir Eco Toit ?"
         whyUs={[
-          "Une équipe expérimentée spécialisée dans le nettoyage de tous types de toitures.",
-          "Des produits et techniques respectueux de l’environnement et de votre maison.",
-          "Un service rapide et fiable, adapté à votre planning et vos besoins.",
-          "Une intervention sécurisée pour protéger votre toiture et votre sécurité."
+          "Une équipe spécialisée et expérimentée dans le nettoyage de toitures.",
+          "Des produits efficaces et respectueux de l’environnement.",
+          "Un accompagnement personnalisé, du devis gratuit à la réalisation des travaux.",
+          "Une intervention rapide à Vallet, Clisson, Le Loroux-Bottereau, et dans tout le secteur."
         ]}
+        backgroundImage="/nettoyage3.png"
       />
     </section>
   )

@@ -26,6 +26,7 @@ export default function Page() {
           "Un accompagnement personnalisé, du devis gratuit à la réalisation des travaux.",
           "Une intervention rapide à Vallet, Clisson, Le Loroux-Bottereau, et dans tout le secteur."
         ]}
+        backgroundImage="/zinguerie.jpg"
       />
     </section>
   )
