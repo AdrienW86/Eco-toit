@@ -4,7 +4,13 @@
   aspect-ratio: 16/9; 
   border-radius: 10px;
   transition: transform 0.4s ease-in-out;
-  margin: 20px 0 0 0
+  margin: 10px 0 0 0;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .h3 {
@@ -15,6 +21,7 @@
   top: -63px;
   padding: 20px;
   width: 100%;
+  border: 1px solid green;
   text-align: left;
   background-color: rgb(255, 255, 255);
 }

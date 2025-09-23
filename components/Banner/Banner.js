@@ -46,6 +46,7 @@ export default function VideoCarousel({ fadeDuration = 1.5, clipDuration = 7 }) 
             src='/garantie.png'
             height={120}
             width={120}
+            alt='garantie decenale'
         />       
         </div>
           <p className= {styles.subtitle}> Artisan couvreur professionnel </p>

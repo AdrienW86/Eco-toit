@@ -4,8 +4,7 @@
   justify-content: center;
   gap: 80px;
   padding: 70px 0 40px 0;
- background: rgb(197, 227, 253);
-background: linear-gradient(to bottom, var(--green), var(--blue));
-
+  background: rgb(238, 238, 238);
+  /* background: linear-gradient(to bottom, var(--green), var(--blue)); */
 
 }
