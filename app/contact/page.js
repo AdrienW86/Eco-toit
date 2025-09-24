@@ -5,7 +5,7 @@ import Map from '@/components/Map/Map'
 
 export default function page() {
   return (
-    <section>
+    <section style={{ marginTop: "0px" }}>
       <Form />
       <Map />
       <Zone />
