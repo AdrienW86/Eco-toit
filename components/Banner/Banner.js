@@ -76,7 +76,6 @@ export default function VideoCarousel({ fadeDuration = 1.5, clipDuration = 7 }) 
             >
               Appeler maintenant
             </motion.a>
-
           </div>
       </div>
 
