@@ -2,6 +2,11 @@ import React from 'react'
 import SecondBanner from '@/components/SecondBanner/SecondBanner'
 import Menu from '@/components/Menu/Menu'
 
+export const metadata = {
+  title: "Rénovation de façades | Nettoyage et ravalement - Eco Couverture",
+  description: "Redonnez vie à vos murs avec Eco Couverture ! Rénovation et nettoyage de façades en Loire-Atlantique, Vendée et Deux-Sèvres.",
+};
+
 export default function Page() {
   return (
     <section>
@@ -11,7 +16,7 @@ export default function Page() {
       />
       <Menu 
         title="Réfection de façades"
-        intro="Chez Eco Toit, nous proposons des services de réfection et d’entretien de façades à Vallet et dans tout le vignoble nantais. Nos interventions garantissent une protection durable, une esthétique soignée et une valorisation de votre patrimoine immobilier."
+        intro="Chez Eco Couverture, nous proposons des services de réfection et d’entretien de façades à Vallet et dans tout le vignoble nantais. Nos interventions garantissent une protection durable, une esthétique soignée et une valorisation de votre patrimoine immobilier."
         title2="Nos services de réfection de façades comprennent :"
         items={[
           "Ravalement complet de façades pour protéger votre maison des intempéries.",
@@ -19,7 +24,7 @@ export default function Page() {
           "Application de peintures et enduits adaptés pour un rendu esthétique durable.",
           "Isolation thermique par l’extérieur pour améliorer le confort et les performances énergétiques."
         ]}
-        title3="Pourquoi choisir Eco Toit ?"
+        title3="Pourquoi choisir Eco Couverture ?"
         whyUs={[
           "Une équipe qualifiée et expérimentée en ravalement et réfection de façades.",
           "Des matériaux et peintures de haute qualité pour durer dans le temps.",

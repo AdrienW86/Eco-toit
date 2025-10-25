@@ -29,7 +29,7 @@ export default function Menu({ title, intro, title2, items, title3, whyUs, backg
 
       <section className={styles.contact}>
         <p className={styles.p}>
-        Avec <strong className={styles.span}>Eco Toit</strong>, vous bénéficiez d’un savoir-faire reconnu et de solutions écologiques et durables
+        Avec <strong className={styles.span}>Eco Couverture</strong>, vous bénéficiez d’un savoir-faire reconnu et de solutions écologiques et durables
         parfaitement adaptées à vos projets.
       </p>
 

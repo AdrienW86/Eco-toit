@@ -1,6 +1,11 @@
 import React from 'react';
 import styles from './conditions.module.css'
 
+export const metadata = {
+  title: "Conditions d’utilisation | Eco Couverture",
+  description: "Consultez les conditions d’utilisation du site Eco Couverture, spécialiste des travaux de couverture, rénovation et nettoyage dans l’Ouest de la France.",
+};
+
 export default function CGV() {
   return (
     <section className={styles.container}>

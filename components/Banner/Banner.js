@@ -40,7 +40,7 @@ export default function VideoCarousel({ fadeDuration = 1.5, clipDuration = 7 }) 
     <div className={styles.carousel}>
       <div className={styles.container}>
         <div className={styles.box}>
-          <h1 className={styles.h1}> Couverture Eco Toit </h1>
+          <h1 className={styles.h1}> Eco Couverture </h1>
           <Image 
             className={styles.garantie}
             src='/garantie.png'

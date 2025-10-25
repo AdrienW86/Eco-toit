@@ -1,6 +1,11 @@
 import React from 'react'
 import styles from './mentions.module.css'
 
+export const metadata = {
+  title: "Mentions légales | Eco Couverture",
+  description: "Mentions légales du site Eco Couverture, entreprise spécialisée dans les travaux de toiture, façades et zinguerie en Loire-Atlantique, Vendée et Deux-Sèvres.",
+};
+
 export default function MentionsLegales() {
   return (
     <section className={styles.container}>
@@ -8,7 +13,7 @@ export default function MentionsLegales() {
 
       <h2 className={styles.h2}>Éditeur du site</h2>
       <p className={styles.p}>Nom de l’entreprise : Éco Toit</p>
-      <p className={styles.p}>Dénomination commerciale : éco couverture</p>
+      <p className={styles.p}>Dénomination commerciale : Eco couverture</p>
       <p className={styles.p}>Dirigeant : MOUCHE KYLLIAN</p>
       <p className={styles.p}>Forme juridique : Entrepreneur individuel</p>
       <p className={styles.p}>SIREN : 847 839 669</p>
@@ -28,7 +33,7 @@ export default function MentionsLegales() {
       <p className={styles.p}>MOUCHE KYLLIAN</p>
 
       <h2 className={styles.h2}>Politique de confidentialité</h2>
-      <p className={styles.p}>Éco Toit peut collecter : nom, prénom, email, téléphone et informations nécessaires pour établir un devis ou fournir la prestation.</p>
+      <p className={styles.p}>Éco Couverture peut collecter : nom, prénom, email, téléphone et informations nécessaires pour établir un devis ou fournir la prestation.</p>
       <p className={styles.p}>Ces données sont utilisées uniquement pour répondre aux demandes des clients et assurer le suivi des prestations.</p>
       <p className={styles.p}>Les données sont conservées de manière sécurisée et ne sont jamais transmises à des tiers sans consentement préalable.</p>
       <p className={styles.p}>Conformément au RGPD, vous pouvez accéder, rectifier ou demander la suppression de vos données en contactant <a href="mailto:ecotoit44330@gmail.com" className="text-blue-600 underline">ecotoit44330@gmail.com</a>.</p>

@@ -2,6 +2,11 @@ import React from 'react'
 import SecondBanner from '@/components/SecondBanner/SecondBanner'
 import Menu from '@/components/Menu/Menu'
 
+export const metadata = {
+  title: "Zinguerie | Gouttières, chéneaux et finitions - Eco Couverture",
+  description: "Travaux de zinguerie soignés avec Eco Couverture : gouttières, chéneaux, rives et finitions pour une toiture durable et étanche.",
+};
+
 export default function Page() {
   return (
     <section>
@@ -11,7 +16,7 @@ export default function Page() {
       />
       <Menu 
         title="Zinguerie"
-        intro="Chez Eco Toit, spécialiste de la couverture et de la zinguerie à Vallet et dans tout le vignoble nantais, nous proposons des solutions sur-mesure pour assurer la longévité et l’étanchéité de votre toiture. Nos prestations en zinguerie garantissent une protection optimale contre les infiltrations d’eau et valorisent l’esthétique de votre maison."
+        intro="Chez Eco Couverture, spécialiste de la couverture et de la zinguerie à Vallet et dans tout le vignoble nantais, nous proposons des solutions sur-mesure pour assurer la longévité et l’étanchéité de votre toiture. Nos prestations en zinguerie garantissent une protection optimale contre les infiltrations d’eau et valorisent l’esthétique de votre maison."
         title2="Nos services de zinguerie comprennent :"
         items={[
           "Pose de gouttières en zinc, aluminium ou cuivre pour un écoulement des eaux de pluie efficace.",
@@ -19,7 +24,7 @@ export default function Page() {
           "Réalisation de noues et chéneaux, adaptés aux spécificités de votre toiture.",
           "Réparations et entretien pour prolonger la durée de vie de vos installations."
         ]}
-        title3="Pourquoi choisir Eco Toit ?"
+        title3="Pourquoi choisir Eco Couverture ?"
         whyUs={[
           "Une équipe locale de couvreurs-zingueurs qualifiés et réactifs.",
           "Des matériaux robustes et durables pour résister aux intempéries.",

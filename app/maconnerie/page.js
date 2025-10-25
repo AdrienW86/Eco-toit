@@ -2,6 +2,11 @@ import React from 'react'
 import SecondBanner from '@/components/SecondBanner/SecondBanner'
 import Menu from '@/components/Menu/Menu'
 
+export const metadata = {
+  title: "Petite maçonnerie | Réparations et finitions - Eco Couverture",
+  description: "Eco Couverture réalise vos petits travaux de maçonnerie : murs, murets, réparations et finitions dans la Loire-Atlantique, Vendée et Deux-Sèvres.",
+};
+
 export default function Page() {
   return (
     <section>
@@ -11,7 +16,7 @@ export default function Page() {
       />
       <Menu 
         title="Petite maçonnerie"
-        intro="Chez Eco Toit, nous réalisons tous vos travaux de petite maçonnerie à Vallet et dans tout le vignoble nantais. Nos interventions garantissent solidité, esthétisme et durabilité pour vos constructions et aménagements extérieurs."
+        intro="Chez Eco Couverture, nous réalisons tous vos travaux de petite maçonnerie à Vallet et dans tout le vignoble nantais. Nos interventions garantissent solidité, esthétisme et durabilité pour vos constructions et aménagements extérieurs."
         title2="Nos services de petite maçonnerie comprennent :"
         items={[
           "Construction et rénovation de murets, bordures et escaliers extérieurs.",
@@ -19,7 +24,7 @@ export default function Page() {
           "Pose de dallages, terrasses et cheminements en pierre ou béton.",
           "Travaux d’aménagements extérieurs sur-mesure pour votre jardin ou cour."
         ]}
-        title3="Pourquoi choisir Eco Toit ?"
+        title3="Pourquoi choisir Eco Couverture ?"
         whyUs={[
           "Une équipe expérimentée en travaux de petite maçonnerie.",
           "Des matériaux durables et adaptés à chaque projet.",

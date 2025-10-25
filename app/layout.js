@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Eco-Toit",
-  description: "Eco-toit, votre expert en couverture à Vallet",
+  title: "Eco Couverture",
+  description: "Eco Couverture, votre expert en couverture à Vallet",
 };
 
 export default function RootLayout({ children }) {

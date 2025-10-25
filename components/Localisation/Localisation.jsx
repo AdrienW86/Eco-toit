@@ -18,7 +18,7 @@ export default function Localisation() {
             ></iframe>
         </div>
         <div className={styles.description}>
-            Chez <span className={styles.span}> Éco Toit </span>, nous intervenons rapidement et efficacement
+            Chez <span className={styles.span}> Eco Couverture </span>, nous intervenons rapidement et efficacement
             pour tous vos travaux de toiture, zinguerie, nettoyage de façades 
             et dallages dans les départements de <strong className={styles.strong}>
             Loire-Atlantique </strong> (44), <strong className={styles.strong}>Vendée</strong> (85), <strong className={styles.strong}>Maine-et-Loire </strong> (49) 
@@ -29,7 +29,7 @@ export default function Localisation() {
             votre service.
             Nous assurons des prestations sur-mesure adaptées à chaque type
             de toiture et façade, en utilisant des matériaux durables et des 
-            techniques respectueuses de l’environnement. Avec <span className={styles.span}> Éco Toit </span>, 
+            techniques respectueuses de l’environnement. Avec <span className={styles.span}> Eco Couverture </span>, 
             bénéficiez d’une intervention rapide, de qualité et d’un suivi 
             personnalisé dans l’ensemble de la région Pays de la Loire et 
             Poitou-Charentes.
