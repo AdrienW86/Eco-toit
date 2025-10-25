@@ -2,23 +2,19 @@
 module.exports = {
   siteUrl: 'https://www.eco-toit.com', // Ton domaine
   generateRobotsTxt: true,              // Génère robots.txt automatiquement
-  sitemapSize: 5000,                     // Taille max d'URL par sitemap
-  changefreq: 'weekly',                  // Fréquence de mise à jour recommandée
-  priority: 0.7,                         // Priorité par défaut des pages
-  exclude: ['/admin/*'],                 // Pages à exclure
+  sitemapSize: 10000,                    // Taille max d'URL par sitemap (suffisant pour tout ton site)
+  changefreq: 'weekly',                  // Fréquence par défaut
+  priority: 0.7,                         // Priorité par défaut
+  exclude: ['/admin/*', '/api/*'],       // Pages à exclure
 
   // Personnalisation du robots.txt
   robotsTxtOptions: {
-    additionalSitemaps: [
-      'https://www.eco-toit.com/sitemap.xml',
-    ],
     policies: [
       { userAgent: '*', allow: '/' },  // Autorise toutes les pages
-      // { userAgent: '*', disallow: '/private' },  // Exemple pour bloquer des pages
     ],
   },
 
-  // Pages à inclure avec priorité et fréquence personnalisée
+  // Pages à inclure avec priorité et fréquence personnalisées
   transform: async (config, url) => {
     const pages = [
       { loc: '/', changefreq: 'weekly', priority: 1.0 },
