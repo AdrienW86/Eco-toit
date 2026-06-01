@@ -20,7 +20,7 @@ export default function Footer() {
             <span className="text-xl font-black tracking-tight">Éco Couverture</span>
           </div>
           <p className="text-sm font-medium leading-relaxed text-slate-400">
-            Artisan couvreur de confiance. Spécialiste de l&apos;entretien, du démoussage et de la rénovation de toitures et façades.
+            Artisan couvreur de confiance. Spécialiste de l'entretien, du démoussage et de la rénovation de toitures et façades.
           </p>
           <p className="text-xs font-bold text-emerald-500 uppercase tracking-wider flex items-center gap-2">
             <Shield size={14} /> Garantie Décennale
@@ -51,7 +51,7 @@ export default function Footer() {
         {/* Colonne 3 : Zone d'intervention (SEO Local) */}
         <div className="space-y-4">
           <h3 className="text-xs uppercase tracking-widest text-slate-200 font-extrabold">
-            Secteurs d&apos;intervention
+            Secteurs d'intervention
           </h3>
           <p className="text-sm font-medium leading-relaxed">
             Nous nous déplaçons rapidement dans les départements suivants :
@@ -77,7 +77,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Mail size={16} className="text-emerald-500 flex-shrink-0" />
-              <a href="mailto:contact@eco-couverture.fr" className="hover:text-white transition-colors">contact@eco-couverture.fr</a>
+              <a href="mailto:contact@eco-toit.com" className="hover:text-white transition-colors">contact@eco-toit.com</a>
             </li>
             <li className="flex items-center gap-3">
               <MapPin size={16} className="text-emerald-500 flex-shrink-0" />
@@ -118,7 +118,7 @@ export default function Footer() {
               rel="noopener noreferrer" 
               className="text-emerald-500 font-bold hover:text-emerald-400 hover:underline transition-all"
             >
-              codev
+              Codev
             </a>
           </p>
         </div>
