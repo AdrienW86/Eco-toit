@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Éco Couverture | Artisan Couvreur Certifié — Cholet",
   description:
-    "Rénovation de toiture, nettoyage, isolation thermique et zinguerie dans les Pyrénées-Orientales. Devis & déplacement gratuits sous 2 heures.",
+    "Rénovation de toiture, nettoyage, isolation thermique et zinguerie 0 Cholet. Devis & déplacement gratuits sous 2 heures.",
 };
 
 export default function RootLayout({
