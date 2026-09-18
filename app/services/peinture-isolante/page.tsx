@@ -1,7 +1,7 @@
 // app/services/peinture-isolante/page.tsx
 import Image from "next/image";
 import Link from "next/link";
-import { Paintbrush, ShieldAlert, ThermometerSun, ChevronRight, Phone } from "lucide-react";
+import { Paintbrush, ShieldAlert, ThermometerSun, ChevronRight } from "lucide-react";
 
 export const metadata = {
   title: "Peinture de Toiture Rénovation Vallet | Éco Couverture",

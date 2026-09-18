@@ -1,7 +1,7 @@
 // app/services/couverture/page.tsx
 import Image from "next/image";
 import Link from "next/link";
-import { Shield, Home, Flame, Phone, CheckCircle } from "lucide-react";
+import { Home, Flame, Phone, CheckCircle } from "lucide-react";
 
 export const metadata = {
   title: "Travaux de Couverture & Toiture Vallet | Éco Couverture",

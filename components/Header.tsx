@@ -10,8 +10,6 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
-
-  const phoneFormatted = "02 40 XX XX XX"; // À remplacer par le numéro du client
   const phoneLink = "tel:0240XXXXXX";
 
   // Liste de tes services spécifiques

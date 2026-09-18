@@ -3,9 +3,8 @@
 
 import { useEffect, useState, useRef } from 'react';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 import { useInView } from 'react-intersection-observer';
-import { Phone, ShieldCheck, Leaf, HardHat } from "lucide-react";
+import { Phone, ShieldCheck, Leaf } from "lucide-react";
 
 const videos = [
   '/video1.mp4',
